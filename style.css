@@ -1,0 +1,39 @@
+body {
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+}
+
+.menu{
+    left: 0;
+    width: 20%;
+}
+
+.menu img{
+    height: 200px;
+    width: 150px;
+}
+
+.movie-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-movie{
+    display: flex;
+}
+
+.detail-movie{
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.main-movie img {
+    width: 300px;
+    height: 500px;
+}
